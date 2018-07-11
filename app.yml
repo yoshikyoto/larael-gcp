@@ -1,0 +1,13 @@
+runtime: php
+env: flex
+
+runtime_config:
+  document_root: public
+
+skip_files:
+  - .env
+
+env_variables:
+  APP_LOG: errorlog
+  APP_KEY: # php artisan key:generate --show
+  STORAGE_DIR: /tmp
